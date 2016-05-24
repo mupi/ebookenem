@@ -184,7 +184,7 @@ body {
 .section-content .right .download-icon {
 	display: block;
 	margin: 0 auto 20px auto;
-	width: 100%;
+	width: 30%;
 }
 
 .section-content .button {
@@ -206,6 +206,17 @@ body {
 .section-content .button:hover {
 	background: #e45a05;
 	border-bottom: 5px solid #f08200;
+}
+
+.mc-field-group{
+  text-align: left;
+}
+.mc-field-group ul{
+  list-style: none;
+  padding: 0;
+}
+.mc-field-group ul li input{
+  margin-right: 5px;
 }
 
 /* Footer
